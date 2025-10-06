@@ -1,0 +1,24 @@
+seed: 42
+total_timesteps: 10000
+eval_freq: 1000
+n_eval_episodes: 3
+save_dir: runs/default
+
+env:
+  N: 100
+  eta: 2.0
+  psi: 0.8
+  A: 1.0
+  lambda_: 0.9
+  z_foreign: 0.8
+  epsilon_low: 0.8
+  epsilon_high: 1.2
+  phi_low: 0.2
+  phi_high: 0.4
+  kappa_low: 0.5
+  kappa_high: 0.9
+  brackets: [0.2, 0.4, 0.6, 0.8]
+  tau_values: [0.05, 0.1, 0.15, 0.2, 0.25]
+  max_steps: 50
+  relocation_penalty: 0.05
+
